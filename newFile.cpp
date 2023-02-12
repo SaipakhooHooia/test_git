@@ -6,6 +6,7 @@ int main() {
   newFile.open("text.txt");
 
   newFile<<"Hello World\n";
+  newFile<<"Hello again\n";
   newFile.close();
   return 0;
 }
